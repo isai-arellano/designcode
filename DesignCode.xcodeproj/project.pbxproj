@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EA49015284549DD00BD5DF4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA49014284549DD00BD5DF4 /* Home.swift */; };
+		4EA49019284571FC00BD5DF4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA49018284571FC00BD5DF4 /* HomeView.swift */; };
+		4EA4901B284594B200BD5DF4 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA4901A284594B200BD5DF4 /* UpdateList.swift */; };
+		4EA4901D2845997400BD5DF4 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA4901C2845997400BD5DF4 /* UpdateDetail.swift */; };
+		4EA4901F28459D5D00BD5DF4 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA4901E28459D5D00BD5DF4 /* UpdateStore.swift */; };
+		4EA490212845A2F900BD5DF4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA490202845A2F900BD5DF4 /* TabBar.swift */; };
 		4EFD93CC284187C000FB88A5 /* DesignCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD93CB284187C000FB88A5 /* DesignCodeApp.swift */; };
 		4EFD93CE284187C000FB88A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD93CD284187C000FB88A5 /* ContentView.swift */; };
 		4EFD93D0284187C100FB88A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFD93CF284187C100FB88A5 /* Assets.xcassets */; };
 		4EFD93D3284187C100FB88A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFD93D2284187C100FB88A5 /* Preview Assets.xcassets */; };
+		4EFD93DA2844186D00FB88A5 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD93D92844186C00FB88A5 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4EFD93C8284187C000FB88A5 /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA49014284549DD00BD5DF4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4EA49018284571FC00BD5DF4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4EA4901A284594B200BD5DF4 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		4EA4901C2845997400BD5DF4 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		4EA4901E28459D5D00BD5DF4 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		4EA490202845A2F900BD5DF4 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		4EFD93C8284187C000FB88A5 /* CertifiesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CertifiesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFD93CB284187C000FB88A5 /* DesignCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeApp.swift; sourceTree = "<group>"; };
 		4EFD93CD284187C000FB88A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4EFD93CF284187C100FB88A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EFD93D2284187C100FB88A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4EFD93D92844186C00FB88A5 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +57,7 @@
 		4EFD93C9284187C000FB88A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EFD93C8284187C000FB88A5 /* DesignCode.app */,
+				4EFD93C8284187C000FB88A5 /* CertifiesApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,7 +65,14 @@
 		4EFD93CA284187C000FB88A5 /* DesignCode */ = {
 			isa = PBXGroup;
 			children = (
+				4EFD93D92844186C00FB88A5 /* MenuView.swift */,
 				4EFD93CB284187C000FB88A5 /* DesignCodeApp.swift */,
+				4EA49014284549DD00BD5DF4 /* Home.swift */,
+				4EA49018284571FC00BD5DF4 /* HomeView.swift */,
+				4EA490202845A2F900BD5DF4 /* TabBar.swift */,
+				4EA4901C2845997400BD5DF4 /* UpdateDetail.swift */,
+				4EA4901A284594B200BD5DF4 /* UpdateList.swift */,
+				4EA4901E28459D5D00BD5DF4 /* UpdateStore.swift */,
 				4EFD93CD284187C000FB88A5 /* ContentView.swift */,
 				4EFD93CF284187C100FB88A5 /* Assets.xcassets */,
 				4EFD93D1284187C100FB88A5 /* Preview Content */,
@@ -84,7 +105,7 @@
 			);
 			name = DesignCode;
 			productName = DesignCode;
-			productReference = 4EFD93C8284187C000FB88A5 /* DesignCode.app */;
+			productReference = 4EFD93C8284187C000FB88A5 /* CertifiesApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA490212845A2F900BD5DF4 /* TabBar.swift in Sources */,
+				4EA4901D2845997400BD5DF4 /* UpdateDetail.swift in Sources */,
 				4EFD93CE284187C000FB88A5 /* ContentView.swift in Sources */,
+				4EA49015284549DD00BD5DF4 /* Home.swift in Sources */,
+				4EA4901B284594B200BD5DF4 /* UpdateList.swift in Sources */,
+				4EA4901F28459D5D00BD5DF4 /* UpdateStore.swift in Sources */,
+				4EFD93DA2844186D00FB88A5 /* MenuView.swift in Sources */,
+				4EA49019284571FC00BD5DF4 /* HomeView.swift in Sources */,
 				4EFD93CC284187C000FB88A5 /* DesignCodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +311,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.isai.DesignCode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CertifiesApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +340,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.isai.DesignCode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CertifiesApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
