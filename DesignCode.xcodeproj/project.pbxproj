@@ -15,6 +15,9 @@
 		4E30856D28616D3900583EED /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E30856C28616D3900583EED /* DataStore.swift */; };
 		4E30857028617B2100583EED /* Contentful in Frameworks */ = {isa = PBXBuildFile; productRef = 4E30856F28617B2100583EED /* Contentful */; };
 		4E3085722862130600583EED /* CourseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3085712862130600583EED /* CourseStore.swift */; };
+		4E40D8E02877A312005E281A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4E40D8DF2877A312005E281A /* Lottie */; };
+		4E40D8E22877A3DC005E281A /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E40D8E12877A3DC005E281A /* LottieView.swift */; };
+		4E40D8E42877BC69005E281A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E40D8E32877BC69005E281A /* LoadingView.swift */; };
 		4E604A4C28582BE000CBFCA5 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E604A4B28582BE000CBFCA5 /* CourseList.swift */; };
 		4E778E2628664448006A8690 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E778E2528664448006A8690 /* Buttons.swift */; };
 		4E80E1AC2864A9E500F6E3D0 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E80E1AB2864A9E500F6E3D0 /* BlurView.swift */; };
@@ -36,6 +39,8 @@
 		4EA9D8D0284AE7AC008E26C8 /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EA9D8BA284AE7AC008E26C8 /* WorkSans-Bold.ttf */; };
 		4EA9D8D1284AE7AC008E26C8 /* WorkSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EA9D8BB284AE7AC008E26C8 /* WorkSans-Italic-VariableFont_wght.ttf */; };
 		4EA9D8D2284AE7AC008E26C8 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4EA9D8BC284AE7AC008E26C8 /* OFL.txt */; };
+		4EC6320C287737500069BF9C /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6320A287737500069BF9C /* loading.json */; };
+		4EC6320D287737500069BF9C /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6320B287737500069BF9C /* success.json */; };
 		4EE659AF2847AA3D006E3E2F /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE659AE2847AA3D006E3E2F /* RingView.swift */; };
 		4EFD93CC284187C000FB88A5 /* DesignCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD93CB284187C000FB88A5 /* DesignCodeApp.swift */; };
 		4EFD93CE284187C000FB88A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD93CD284187C000FB88A5 /* ContentView.swift */; };
@@ -51,6 +56,8 @@
 		4E30856A286169DE00583EED /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 		4E30856C28616D3900583EED /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		4E3085712862130600583EED /* CourseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStore.swift; sourceTree = "<group>"; };
+		4E40D8E12877A3DC005E281A /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		4E40D8E32877BC69005E281A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		4E604A4B28582BE000CBFCA5 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		4E778E2528664448006A8690 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		4E80E1AB2864A9E500F6E3D0 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
@@ -73,6 +80,8 @@
 		4EA9D8BB284AE7AC008E26C8 /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		4EA9D8BC284AE7AC008E26C8 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		4EA9D8D4284AE8EE008E26C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4EC6320A287737500069BF9C /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		4EC6320B287737500069BF9C /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 		4EE659AE2847AA3D006E3E2F /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		4EFD93C8284187C000FB88A5 /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFD93CB284187C000FB88A5 /* DesignCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeApp.swift; sourceTree = "<group>"; };
@@ -89,6 +98,7 @@
 			files = (
 				4E14E6CD2863CA5000161F9D /* SDWebImageSwiftUI in Frameworks */,
 				4E30857028617B2100583EED /* Contentful in Frameworks */,
+				4E40D8E02877A312005E281A /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +121,15 @@
 				4EA9D8BC284AE7AC008E26C8 /* OFL.txt */,
 			);
 			path = Work_Sans;
+			sourceTree = "<group>";
+		};
+		4EC63209287737500069BF9C /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				4EC6320A287737500069BF9C /* loading.json */,
+				4EC6320B287737500069BF9C /* success.json */,
+			);
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 		4EFD93BF284187BF00FB88A5 = {
@@ -150,10 +169,13 @@
 				4E30856C28616D3900583EED /* DataStore.swift */,
 				4E80E1AB2864A9E500F6E3D0 /* BlurView.swift */,
 				4E778E2528664448006A8690 /* Buttons.swift */,
+				4E40D8E12877A3DC005E281A /* LottieView.swift */,
+				4E40D8E32877BC69005E281A /* LoadingView.swift */,
 				4EFD93CD284187C000FB88A5 /* ContentView.swift */,
 				4EE659AE2847AA3D006E3E2F /* RingView.swift */,
 				4EA9D8A2284AE38F008E26C8 /* Modifiers.swift */,
 				4EFD93CF284187C100FB88A5 /* Assets.xcassets */,
+				4EC63209287737500069BF9C /* Lottie */,
 				4EA9D8A6284AE7AC008E26C8 /* Work_Sans */,
 				4EFD93D1284187C100FB88A5 /* Preview Content */,
 			);
@@ -187,6 +209,7 @@
 			packageProductDependencies = (
 				4E30856F28617B2100583EED /* Contentful */,
 				4E14E6CC2863CA5000161F9D /* SDWebImageSwiftUI */,
+				4E40D8DF2877A312005E281A /* Lottie */,
 			);
 			productName = DesignCode;
 			productReference = 4EFD93C8284187C000FB88A5 /* DesignCode.app */;
@@ -219,6 +242,7 @@
 			packageReferences = (
 				4E30856E28617B2100583EED /* XCRemoteSwiftPackageReference "contentful.swift" */,
 				4E14E6CB2863CA5000161F9D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				4E40D8DE2877A312005E281A /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = 4EFD93C9284187C000FB88A5 /* Products */;
 			projectDirPath = "";
@@ -238,6 +262,8 @@
 				4EFD93D0284187C100FB88A5 /* Assets.xcassets in Resources */,
 				4EA9D8CC284AE7AC008E26C8 /* WorkSans-Thin.ttf in Resources */,
 				4EA9D8C5284AE7AC008E26C8 /* WorkSans-ExtraLight.ttf in Resources */,
+				4EC6320C287737500069BF9C /* loading.json in Resources */,
+				4EC6320D287737500069BF9C /* success.json in Resources */,
 				4EA9D8D2284AE7AC008E26C8 /* OFL.txt in Resources */,
 				4EA9D8C9284AE7AC008E26C8 /* WorkSans-SemiBold.ttf in Resources */,
 				4EA9D8BF284AE7AC008E26C8 /* WorkSans-Regular.ttf in Resources */,
@@ -260,6 +286,7 @@
 				4EE659AF2847AA3D006E3E2F /* RingView.swift in Sources */,
 				4E30856D28616D3900583EED /* DataStore.swift in Sources */,
 				4E30856B286169DE00583EED /* PostList.swift in Sources */,
+				4E40D8E42877BC69005E281A /* LoadingView.swift in Sources */,
 				4EA9D8A3284AE38F008E26C8 /* Modifiers.swift in Sources */,
 				4EA490212845A2F900BD5DF4 /* TabBar.swift in Sources */,
 				4E80E1AC2864A9E500F6E3D0 /* BlurView.swift in Sources */,
@@ -268,6 +295,7 @@
 				4E3085722862130600583EED /* CourseStore.swift in Sources */,
 				4EFD93CE284187C000FB88A5 /* ContentView.swift in Sources */,
 				4EA49015284549DD00BD5DF4 /* Home.swift in Sources */,
+				4E40D8E22877A3DC005E281A /* LottieView.swift in Sources */,
 				4E3085692861680500583EED /* Data.swift in Sources */,
 				4EA4901B284594B200BD5DF4 /* UpdateList.swift in Sources */,
 				4EA4901F28459D5D00BD5DF4 /* UpdateStore.swift in Sources */,
@@ -406,6 +434,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
 				DEVELOPMENT_TEAM = ABXQH5S54D;
 				ENABLE_PREVIEWS = YES;
@@ -436,6 +465,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
 				DEVELOPMENT_TEAM = ABXQH5S54D;
 				ENABLE_PREVIEWS = YES;
@@ -499,6 +529,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		4E40D8DE2877A312005E281A /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -511,6 +549,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4E30856E28617B2100583EED /* XCRemoteSwiftPackageReference "contentful.swift" */;
 			productName = Contentful;
+		};
+		4E40D8DF2877A312005E281A /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E40D8DE2877A312005E281A /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
