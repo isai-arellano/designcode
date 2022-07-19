@@ -18,9 +18,13 @@
 		4E40D8E02877A312005E281A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4E40D8DF2877A312005E281A /* Lottie */; };
 		4E40D8E22877A3DC005E281A /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E40D8E12877A3DC005E281A /* LottieView.swift */; };
 		4E40D8E42877BC69005E281A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E40D8E32877BC69005E281A /* LoadingView.swift */; };
+		4E4FC81B28863440007D4B5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E4FC81A2886343F007D4B5C /* GoogleService-Info.plist */; };
 		4E604A4C28582BE000CBFCA5 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E604A4B28582BE000CBFCA5 /* CourseList.swift */; };
 		4E778E2628664448006A8690 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E778E2528664448006A8690 /* Buttons.swift */; };
 		4E80E1AC2864A9E500F6E3D0 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E80E1AB2864A9E500F6E3D0 /* BlurView.swift */; };
+		4E847A2028864CFC00DD9208 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4E847A1F28864CFC00DD9208 /* FirebaseAnalytics */; };
+		4E847A2228864CFC00DD9208 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4E847A2128864CFC00DD9208 /* FirebaseAuth */; };
+		4E847A2428864CFC00DD9208 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4E847A2328864CFC00DD9208 /* FirebaseFirestore */; };
 		4EA49015284549DD00BD5DF4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA49014284549DD00BD5DF4 /* Home.swift */; };
 		4EA49019284571FC00BD5DF4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA49018284571FC00BD5DF4 /* HomeView.swift */; };
 		4EA4901B284594B200BD5DF4 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA4901A284594B200BD5DF4 /* UpdateList.swift */; };
@@ -39,6 +43,8 @@
 		4EA9D8D0284AE7AC008E26C8 /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EA9D8BA284AE7AC008E26C8 /* WorkSans-Bold.ttf */; };
 		4EA9D8D1284AE7AC008E26C8 /* WorkSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EA9D8BB284AE7AC008E26C8 /* WorkSans-Italic-VariableFont_wght.ttf */; };
 		4EA9D8D2284AE7AC008E26C8 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4EA9D8BC284AE7AC008E26C8 /* OFL.txt */; };
+		4EABC3DA28786CD80028F319 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EABC3D928786CD80028F319 /* SuccessView.swift */; };
+		4EC3C81A287DE02C006C7B77 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3C819287DE02C006C7B77 /* UserStore.swift */; };
 		4EC6320C287737500069BF9C /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6320A287737500069BF9C /* loading.json */; };
 		4EC6320D287737500069BF9C /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6320B287737500069BF9C /* success.json */; };
 		4EE659AF2847AA3D006E3E2F /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE659AE2847AA3D006E3E2F /* RingView.swift */; };
@@ -50,6 +56,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		440C096F9E0946F1B6650900 /* Pods-DesignCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignCode.debug.xcconfig"; path = "Target Support Files/Pods-DesignCode/Pods-DesignCode.debug.xcconfig"; sourceTree = "<group>"; };
 		4E04CD0F285ECFBE005F0DB5 /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
 		4E0FF53E286A3C6500C4F2EC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		4E3085682861680500583EED /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -58,6 +65,7 @@
 		4E3085712862130600583EED /* CourseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStore.swift; sourceTree = "<group>"; };
 		4E40D8E12877A3DC005E281A /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		4E40D8E32877BC69005E281A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		4E4FC81A2886343F007D4B5C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E604A4B28582BE000CBFCA5 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		4E778E2528664448006A8690 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		4E80E1AB2864A9E500F6E3D0 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
@@ -80,6 +88,8 @@
 		4EA9D8BB284AE7AC008E26C8 /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		4EA9D8BC284AE7AC008E26C8 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		4EA9D8D4284AE8EE008E26C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4EABC3D928786CD80028F319 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		4EC3C819287DE02C006C7B77 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 		4EC6320A287737500069BF9C /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		4EC6320B287737500069BF9C /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 		4EE659AE2847AA3D006E3E2F /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
@@ -89,6 +99,7 @@
 		4EFD93CF284187C100FB88A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EFD93D2284187C100FB88A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4EFD93D92844186C00FB88A5 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		C0CB6DE27B6D253666FAEB24 /* Pods-DesignCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignCode.release.xcconfig"; path = "Target Support Files/Pods-DesignCode/Pods-DesignCode.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +108,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E14E6CD2863CA5000161F9D /* SDWebImageSwiftUI in Frameworks */,
+				4E847A2228864CFC00DD9208 /* FirebaseAuth in Frameworks */,
 				4E30857028617B2100583EED /* Contentful in Frameworks */,
 				4E40D8E02877A312005E281A /* Lottie in Frameworks */,
+				4E847A2028864CFC00DD9208 /* FirebaseAnalytics in Frameworks */,
+				4E847A2428864CFC00DD9208 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +151,8 @@
 			children = (
 				4EFD93CA284187C000FB88A5 /* DesignCode */,
 				4EFD93C9284187C000FB88A5 /* Products */,
+				B53EB0A2EA38AF619B27FF3E /* Pods */,
+				6A0FB7F9C8BF4F0820316BC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,8 +179,10 @@
 				4EA490202845A2F900BD5DF4 /* TabBar.swift */,
 				4EA4901C2845997400BD5DF4 /* UpdateDetail.swift */,
 				4E0FF53E286A3C6500C4F2EC /* LoginView.swift */,
+				4EC3C819287DE02C006C7B77 /* UserStore.swift */,
 				4EA4901A284594B200BD5DF4 /* UpdateList.swift */,
 				4EA4901E28459D5D00BD5DF4 /* UpdateStore.swift */,
+				4EABC3D928786CD80028F319 /* SuccessView.swift */,
 				4E30856A286169DE00583EED /* PostList.swift */,
 				4E30856C28616D3900583EED /* DataStore.swift */,
 				4E80E1AB2864A9E500F6E3D0 /* BlurView.swift */,
@@ -175,6 +193,7 @@
 				4EE659AE2847AA3D006E3E2F /* RingView.swift */,
 				4EA9D8A2284AE38F008E26C8 /* Modifiers.swift */,
 				4EFD93CF284187C100FB88A5 /* Assets.xcassets */,
+				4E4FC81A2886343F007D4B5C /* GoogleService-Info.plist */,
 				4EC63209287737500069BF9C /* Lottie */,
 				4EA9D8A6284AE7AC008E26C8 /* Work_Sans */,
 				4EFD93D1284187C100FB88A5 /* Preview Content */,
@@ -190,6 +209,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6A0FB7F9C8BF4F0820316BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B53EB0A2EA38AF619B27FF3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				440C096F9E0946F1B6650900 /* Pods-DesignCode.debug.xcconfig */,
+				C0CB6DE27B6D253666FAEB24 /* Pods-DesignCode.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EFD93D6284187C100FB88A5 /* Build configuration list for PBXNativeTarget "DesignCode" */;
 			buildPhases = (
+				6016B05FAC895C6A801B72DF /* [CP] Check Pods Manifest.lock */,
 				4EFD93C4284187C000FB88A5 /* Sources */,
 				4EFD93C5284187C000FB88A5 /* Frameworks */,
 				4EFD93C6284187C000FB88A5 /* Resources */,
@@ -210,6 +246,9 @@
 				4E30856F28617B2100583EED /* Contentful */,
 				4E14E6CC2863CA5000161F9D /* SDWebImageSwiftUI */,
 				4E40D8DF2877A312005E281A /* Lottie */,
+				4E847A1F28864CFC00DD9208 /* FirebaseAnalytics */,
+				4E847A2128864CFC00DD9208 /* FirebaseAuth */,
+				4E847A2328864CFC00DD9208 /* FirebaseFirestore */,
 			);
 			productName = DesignCode;
 			productReference = 4EFD93C8284187C000FB88A5 /* DesignCode.app */;
@@ -243,6 +282,7 @@
 				4E30856E28617B2100583EED /* XCRemoteSwiftPackageReference "contentful.swift" */,
 				4E14E6CB2863CA5000161F9D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				4E40D8DE2877A312005E281A /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				4E847A1E28864CFC00DD9208 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 4EFD93C9284187C000FB88A5 /* Products */;
 			projectDirPath = "";
@@ -269,6 +309,7 @@
 				4EA9D8BF284AE7AC008E26C8 /* WorkSans-Regular.ttf in Resources */,
 				4EA9D8CD284AE7AC008E26C8 /* WorkSans-Black.ttf in Resources */,
 				4EA9D8C1284AE7AC008E26C8 /* WorkSans-ExtraBold.ttf in Resources */,
+				4E4FC81B28863440007D4B5C /* GoogleService-Info.plist in Resources */,
 				4EA9D8D1284AE7AC008E26C8 /* WorkSans-Italic-VariableFont_wght.ttf in Resources */,
 				4EA9D8C8284AE7AC008E26C8 /* WorkSans-Medium.ttf in Resources */,
 				4EA9D8C0284AE7AC008E26C8 /* WorkSans-Light.ttf in Resources */,
@@ -277,6 +318,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6016B05FAC895C6A801B72DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesignCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4EFD93C4284187C000FB88A5 /* Sources */ = {
@@ -289,6 +355,7 @@
 				4E40D8E42877BC69005E281A /* LoadingView.swift in Sources */,
 				4EA9D8A3284AE38F008E26C8 /* Modifiers.swift in Sources */,
 				4EA490212845A2F900BD5DF4 /* TabBar.swift in Sources */,
+				4EC3C81A287DE02C006C7B77 /* UserStore.swift in Sources */,
 				4E80E1AC2864A9E500F6E3D0 /* BlurView.swift in Sources */,
 				4EA4901D2845997400BD5DF4 /* UpdateDetail.swift in Sources */,
 				4E604A4C28582BE000CBFCA5 /* CourseList.swift in Sources */,
@@ -303,6 +370,7 @@
 				4E04CD10285ECFBE005F0DB5 /* CourseDetail.swift in Sources */,
 				4E778E2628664448006A8690 /* Buttons.swift in Sources */,
 				4EA49019284571FC00BD5DF4 /* HomeView.swift in Sources */,
+				4EABC3DA28786CD80028F319 /* SuccessView.swift in Sources */,
 				4E0FF53F286A3C6500C4F2EC /* LoginView.swift in Sources */,
 				4EFD93CC284187C000FB88A5 /* DesignCodeApp.swift in Sources */,
 			);
@@ -429,6 +497,7 @@
 		};
 		4EFD93D7284187C100FB88A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440C096F9E0946F1B6650900 /* Pods-DesignCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -438,6 +507,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
 				DEVELOPMENT_TEAM = ABXQH5S54D;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DesignCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -460,6 +530,7 @@
 		};
 		4EFD93D8284187C100FB88A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0CB6DE27B6D253666FAEB24 /* Pods-DesignCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +540,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
 				DEVELOPMENT_TEAM = ABXQH5S54D;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DesignCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -537,6 +609,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		4E847A1E28864CFC00DD9208 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -554,6 +634,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4E40D8DE2877A312005E281A /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		4E847A1F28864CFC00DD9208 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E847A1E28864CFC00DD9208 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		4E847A2128864CFC00DD9208 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E847A1E28864CFC00DD9208 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4E847A2328864CFC00DD9208 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E847A1E28864CFC00DD9208 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 //var color1 = Color(#colorLiteral(red: 0.4117647059, green: 0.4705882353, blue: 0.9725490196, alpha: 1))
 var iconColor = Color(#colorLiteral(red: 0.6549019608, green: 0.7137254902, blue: 0.862745098, alpha: 1))
 var btnLoginColor = Color(#colorLiteral(red: 0, green: 0.7529411765, blue: 1, alpha: 1))
@@ -16,6 +17,31 @@ struct LoginView: View {
     @State var showAlert = false
     @State var alertMessage = "Something went wrong"
     @State var isLoading = false
+    @State var isSuccessful = false
+    @EnvironmentObject var user: UserStore
+    
+    
+    func login(){
+        self.hideKeyboard()
+        self.isFocused = false
+        self.isLoading = true
+        
+        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+            self.isLoading = false
+            
+            if error != nil {
+                self.alertMessage = error?.localizedDescription ?? ""
+                self.showAlert = true
+            }else {
+                self.isSuccessful = true
+                
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                    self.isSuccessful = false
+                }
+            }
+        }
+        
+    }
     
     func hideKeyboard(){
         UIApplication.shared.sendAction(#selector(UIResponder .resignFirstResponder), to: nil, from: nil, for: nil)
@@ -88,14 +114,7 @@ struct LoginView: View {
                     Spacer()
                     
                     Button(action: {
-                        self.hideKeyboard()
-                        self.isFocused = false
-                        self.isLoading = true
-                        
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                            self.isLoading = false
-                            self.showAlert = true
-                        }
+                        self.login()
                     }) {
                         Text("Log in").foregroundColor(.black)
                     }
@@ -120,6 +139,11 @@ struct LoginView: View {
             if isLoading {
                 LoadingView()
             }
+            
+            if isSuccessful {
+                SuccessView()
+            }
+            
         }
     }
 }
