@@ -18,7 +18,7 @@
 		4E40D8E02877A312005E281A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4E40D8DF2877A312005E281A /* Lottie */; };
 		4E40D8E22877A3DC005E281A /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E40D8E12877A3DC005E281A /* LottieView.swift */; };
 		4E40D8E42877BC69005E281A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E40D8E32877BC69005E281A /* LoadingView.swift */; };
-		4E4FC81B28863440007D4B5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E4FC81A2886343F007D4B5C /* GoogleService-Info.plist */; };
+		4E5BEC5A2890BEDA002A97F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E5BEC592890BEDA002A97F0 /* GoogleService-Info.plist */; };
 		4E604A4C28582BE000CBFCA5 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E604A4B28582BE000CBFCA5 /* CourseList.swift */; };
 		4E778E2628664448006A8690 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E778E2528664448006A8690 /* Buttons.swift */; };
 		4E80E1AC2864A9E500F6E3D0 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E80E1AB2864A9E500F6E3D0 /* BlurView.swift */; };
@@ -65,7 +65,7 @@
 		4E3085712862130600583EED /* CourseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStore.swift; sourceTree = "<group>"; };
 		4E40D8E12877A3DC005E281A /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		4E40D8E32877BC69005E281A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		4E4FC81A2886343F007D4B5C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E5BEC592890BEDA002A97F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E604A4B28582BE000CBFCA5 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		4E778E2528664448006A8690 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		4E80E1AB2864A9E500F6E3D0 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
@@ -193,7 +193,7 @@
 				4EE659AE2847AA3D006E3E2F /* RingView.swift */,
 				4EA9D8A2284AE38F008E26C8 /* Modifiers.swift */,
 				4EFD93CF284187C100FB88A5 /* Assets.xcassets */,
-				4E4FC81A2886343F007D4B5C /* GoogleService-Info.plist */,
+				4E5BEC592890BEDA002A97F0 /* GoogleService-Info.plist */,
 				4EC63209287737500069BF9C /* Lottie */,
 				4EA9D8A6284AE7AC008E26C8 /* Work_Sans */,
 				4EFD93D1284187C100FB88A5 /* Preview Content */,
@@ -307,9 +307,9 @@
 				4EA9D8D2284AE7AC008E26C8 /* OFL.txt in Resources */,
 				4EA9D8C9284AE7AC008E26C8 /* WorkSans-SemiBold.ttf in Resources */,
 				4EA9D8BF284AE7AC008E26C8 /* WorkSans-Regular.ttf in Resources */,
+				4E5BEC5A2890BEDA002A97F0 /* GoogleService-Info.plist in Resources */,
 				4EA9D8CD284AE7AC008E26C8 /* WorkSans-Black.ttf in Resources */,
 				4EA9D8C1284AE7AC008E26C8 /* WorkSans-ExtraBold.ttf in Resources */,
-				4E4FC81B28863440007D4B5C /* GoogleService-Info.plist in Resources */,
 				4EA9D8D1284AE7AC008E26C8 /* WorkSans-Italic-VariableFont_wght.ttf in Resources */,
 				4EA9D8C8284AE7AC008E26C8 /* WorkSans-Medium.ttf in Resources */,
 				4EA9D8C0284AE7AC008E26C8 /* WorkSans-Light.ttf in Resources */,

@@ -34,9 +34,14 @@ struct LoginView: View {
                 self.showAlert = true
             }else {
                 self.isSuccessful = true
+                self.user.isLogged = true
+                UserDefaults.standard.set(true, forKey: "isLogged")
                 
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                    self.email = ""
+                    self.password = ""
                     self.isSuccessful = false
+                    self.user.showLogin = false
                 }
             }
         }
@@ -188,16 +193,16 @@ struct CoverView: View {
                     .offset(x: -150, y: -200)
                     .rotationEffect(Angle(degrees: show ? 360+90 : 90))
                     .blendMode(.plusDarker)
-                    //.animation(Animation.linear(duration: 120).repeatForever(autoreverses: false))
-                    .animation(nil)
+                    .animation(Animation.linear(duration: 120).repeatForever(autoreverses: false))
+                    //.animation(nil)
                     .onAppear{ self.show = true }
                 
                 Image("Blob")
                     .offset(x: -200, y: -250)
                     .rotationEffect(Angle(degrees: show ? 360 : 0),anchor: .leading)
                     .blendMode(.overlay)
-                    .animation(nil)
-                    //.animation(Animation.linear(duration: 120).repeatForever(autoreverses: false))
+                    //.animation(nil)
+                    .animation(Animation.linear(duration: 120).repeatForever(autoreverses: false))
             }
         )
         .background(Image("Card3").offset(x: viewState.width/15, y: viewState.height/15), alignment: .bottom)

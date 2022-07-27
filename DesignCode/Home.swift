@@ -37,7 +37,7 @@ struct Home: View {
                 .animation(.spring(response: 0.5, dampingFraction: 0.6, blendDuration: 0))
                 .edgesIgnoringSafeArea(.all)
             
-            MenuView()
+            MenuView(showProfile: $showProfile)
                 .background(Color.black.opacity(0.001))
                 .offset(y: showProfile ? 0 : screen.height)
                 .offset(y: viewState.height)
@@ -58,7 +58,6 @@ struct Home: View {
             if user.showLogin {
                 ZStack {
                     LoginView()
-                    
                     VStack {
                         HStack {
                             Spacer()
@@ -74,8 +73,6 @@ struct Home: View {
                     .onTapGesture {
                         self.user.showLogin = false
                     }
-                    
-                    
                 }
             }
             
